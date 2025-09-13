@@ -35,22 +35,24 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 ## PROGRAM:
 ### Install Autopsy
 ```
-<img width="1082" height="593" alt="Screenshot 2025-09-13 135840" src="https://github.com/user-attachments/assets/bf5db89f-6e4d-4870-b1e2-f0508de626a5" />
+<img width="1082" height="593" alt="Screenshot 2025-09-13 135840" src="https://github.com/user-attachments/assets/b1854591-7591-4b67-9414-81dc36856fc7" />
+
 
 ```
 ### Create a New Case
 ```
-<img width="1080" height="1016" alt="Screenshot 2025-09-13 140124" src="https://github.com/user-attachments/assets/bfb8f7c6-84d7-4819-96fa-6b69baf37325" />
+<img width="1080" height="1016" alt="Screenshot 2025-09-13 140124" src="https://github.com/user-attachments/assets/7ad47470-a20e-4209-afbb-38f6e796d1b0" />
+
 
 ```
 ### Add Disk Image
 ```
-<img width="1910" height="1019" alt="Screenshot 2025-09-13 141747" src="https://github.com/user-attachments/assets/9aef5364-dfff-403c-805c-5e4aa3deb819" />
+<img width="1917" height="1018" alt="Screenshot 2025-09-13 140626" src="https://github.com/user-attachments/assets/92b9285a-e4ac-4b4a-98f6-66c4813f20a2" />
 
 ```
 ### Locate Deleted Files
 ```
-<img width="1911" height="1017" alt="Screenshot 2025-09-13 141930" src="https://github.com/user-attachments/assets/15907f44-f833-4268-807c-4b8f037098f4" />
+<img width="1911" height="1017" alt="Screenshot 2025-09-13 141930" src="https://github.com/user-attachments/assets/2c5ac5de-3a09-4957-9b43-939f3958822a" />
 
 ```
 
