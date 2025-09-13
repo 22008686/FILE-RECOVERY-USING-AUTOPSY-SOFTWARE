@@ -34,44 +34,25 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 
 ## PROGRAM:
 ### Install Autopsy
-```bash
-# Download Autopsy from:
-# https://www.autopsy.com/
-# Install following the setup wizard.
+```
+<img width="1082" height="593" alt="Screenshot 2025-09-13 135840" src="https://github.com/user-attachments/assets/0a7ea282-5dfc-4412-9222-5598b2b39dfb" />
+
 ```
 ### Create a New Case
 ```
-# File → New Case
-# Enter Case Name: Deleted_File_Recovery
-# Choose Base Directory: C:\Cases\Deleted_File_Recovery
-# Click Finish
+<img width="1080" height="1016" alt="Screenshot 2025-09-13 140124" src="https://github.com/user-attachments/assets/a87721a9-67d7-4206-8499-c2f4fa1664b0" />
+
 ```
 ### Add Disk Image
 ```
-# Add Data Source → Disk Image or VM File
-# Browse to: C:\forensics\disk.dd
-# Click Next
-```
-### Run Ingest Modules
-```# Select:
-# - File System Analysis
-# - Keyword Search (optional)
-# - Data Recovery / Carving
-# Click Finish
+<img width="1910" height="1019" alt="Screenshot 2025-09-13 141747" src="https://github.com/user-attachments/assets/03fafc91-fb4c-462b-a1b1-1f44664de504" />
+
 ```
 ### Locate Deleted Files
 ```
-# Navigate to 'Deleted Files' section in the tree view
-# Review metadata (size, hash, timestamps)
-```
-### Export Deleted Files
-```
-# Right-click → Extract File(s)
-# Save to: C:\forensics\Recovered_Files\
-```
+<img width="1911" height="1017" alt="Screenshot 2025-09-13 141930" src="https://github.com/user-attachments/assets/a5dd5fa0-d0e8-4a8f-afa6-eed0b15b76de" />
 
-## OUTPUT:
-Recovered Deleted File List and Details
+```
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
