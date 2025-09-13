@@ -1,27 +1,7 @@
-# FILE-RECOVERY-USING-AUTOPSY-SOFTWARE
+# Using-the-Autopsy-retrieve-the-deleted-files
+## AIM:
+To use Autopsy in Kali Linux to retrieve and analyze deleted files from a disk image.
 
-## AIM
-To use **Autopsy Digital Forensics Tool** to retrieve deleted files from a disk image.
-
----
-
-## REQUIREMENTS
-- **Operating System**: Windows 10/11, macOS, or Linux
-- **Tool**: [Autopsy Digital Forensics](https://www.autopsy.com/)  
-- **Test Data**: Disk image file (`disk.dd`, `disk.img`, `.E01`)
-
----
-
-## ARCHITECTURE DIAGRAM
-```mermaid
-flowchart TD
-    A[Disk Image / Physical Drive] --> B[Install Autopsy]
-    B --> C[Create New Case in Autopsy]
-    C --> D[Add Data Source: Disk Image]
-    D --> E["Run File System & Data Recovery Modules"]
-    E --> F[Locate Deleted Files in Results]
-    F --> G[Recover and Export Deleted Files]
-```
 ## DESIGN STEPS:
 ### Step 1:
 Open Autopsy and create a new case with appropriate case details.
@@ -33,44 +13,60 @@ Add a disk image as a data source and let Autopsy analyze the content.
 Navigate to the "Deleted Files" section in Autopsy and examine or recover the deleted files.
 
 ## PROGRAM:
-### Install Autopsy
-```
-<img width="1082" height="593" alt="Screenshot 2025-09-13 135840" src="https://github.com/user-attachments/assets/7ed2dfe7-732a-41c5-a95b-64e548a3b985" />
+### **1. Copy Files to the Virtual Disk**  
+- Open **File Explorer** → Go to the new drive (`C: or D:`), where the folder created in the New Virtual Disk
+- Create a new folder (`Autospy`) and copy **images or files** into it.  
 
-```
-### Create a New Case
-```
-# File → New Case
-# Enter Case Name: Deleted_File_Recovery
-# Choose Base Directory: C:\Cases\Deleted_File_Recovery
-# Click Finish
-```
-### Add Disk Image
-```
-# Add Data Source → Disk Image or VM File
-# Browse to: C:\forensics\disk.dd
-# Click Next
-```
-### Run Ingest Modules
-```# Select:
-# - File System Analysis
-# - Keyword Search (optional)
-# - Data Recovery / Carving
-# Click Finish
-```
-### Locate Deleted Files
-```
-# Navigate to 'Deleted Files' section in the tree view
-# Review metadata (size, hash, timestamps)
-```
-### Export Deleted Files
-```
-# Right-click → Extract File(s)
-# Save to: C:\forensics\Recovered_Files\
-```
+### **2. Delete the Files**  
+- Select any one or two images → Press **Delete**.  
+- Empty the **Recycle Bin** to permanently delete them.  
 
-## OUTPUT:
-Recovered Deleted File List and Details
+### **3. Recover Deleted Files Using Autopsy**  
+### **Open Autopsy & Create a New Case** 
+
+- Launch **Autopsy** and **Run as a administrator**  
+- Click **Create New Case**.  
+
+<img width="1082" height="593" alt="Screenshot 2025-09-13 135840" src="https://github.com/user-attachments/assets/fd409332-ce92-47ac-b25c-eaa1f00cf8db" />
+
+- Enter a **Case Name** (e.g., `Autopsy1`).  
+- Choose a **Case Folder** location.  
+- Click **Next** → Click **Finish**.  
+
+<img width="1080" height="1016" alt="Screenshot 2025-09-13 140124" src="https://github.com/user-attachments/assets/83317df2-8c6e-4aa9-a501-15ae00d80e2e" />
+
+### **Add the Virtual Disk as an Evidence Source**  
+- Click **Add Data Source**  → **Select Host**
+
+<img width="926" height="466" alt="Screenshot 2025-09-13 144100" src="https://github.com/user-attachments/assets/2057dd57-1c0f-49ca-b148-565d4d6b59a3" />
+
+
+- Select **Local Disk** → **next** 
+
+<img width="926" height="469" alt="Screenshot 2025-09-13 144155" src="https://github.com/user-attachments/assets/b9ff29f8-fc03-4a32-b6fd-668fbc79d643" />
+
+### **Recover Deleted Files**  
+- Go to **File Views** (left panel).  
+<img width="1911" height="1017" alt="Screenshot 2025-09-13 141930" src="https://github.com/user-attachments/assets/78502d71-46a7-4bd3-a165-9765d707c26e" />
+
+
+- Click **Deleted Files** → Find your deleted images.  
+- Right-click an image → Click **Extract File**.  
+
+<img width="1920" height="1080" alt="Screenshot (316)" src="https://github.com/user-attachments/assets/ef1668e1-6614-48e6-8f6f-12bab0901157" />
+
+
+- Select a folder to see the recovered files (e.g., `C:\forensic`).  
+- Image is recovered successfully.
+
+
+## Output :
+### Folder before deleting the files
+<img width="1920" height="1080" alt="Screenshot (305)" src="https://github.com/user-attachments/assets/6b565d7e-ecf8-4331-b3db-935434d7710a" />
+
+
+### Folder after deleting the files
+<img width="1905" height="1016" alt="Screenshot 2025-09-13 135310" src="https://github.com/user-attachments/assets/bc661c66-62f0-4340-a3cf-b58af40e3c36" />
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
