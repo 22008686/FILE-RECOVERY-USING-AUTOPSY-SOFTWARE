@@ -34,10 +34,9 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 
 ## PROGRAM:
 ### Install Autopsy
-```bash
-# Download Autopsy from:
-# https://www.autopsy.com/
-# Install following the setup wizard.
+```
+<img width="1082" height="593" alt="Screenshot 2025-09-13 135840" src="https://github.com/user-attachments/assets/f4cf7b5a-4d75-4137-aa75-5ad6b62ba67f" />
+
 ```
 ### Create a New Case
 ```
