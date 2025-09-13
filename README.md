@@ -38,12 +38,12 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 ### **Add the Virtual Disk as an Evidence Source**  
 - Click **Add Data Source**  → **Select Host**
 
-<img width="926" height="466" alt="Screenshot 2025-09-13 144100" src="https://github.com/user-attachments/assets/2057dd57-1c0f-49ca-b148-565d4d6b59a3" />
-
+<img width="1917" height="1016" alt="Screenshot 2025-09-13 190330" src="https://github.com/user-attachments/assets/61f81507-bbd7-456b-8289-61c3025682a7" />
 
 - Select **Local Disk** → **next** 
 
-<img width="926" height="469" alt="Screenshot 2025-09-13 144155" src="https://github.com/user-attachments/assets/b9ff29f8-fc03-4a32-b6fd-668fbc79d643" />
+<img width="1914" height="1016" alt="Screenshot 2025-09-13 190413" src="https://github.com/user-attachments/assets/479286c9-9642-42ae-834f-fd4c3f2dafd0" />
+
 
 ### **Recover Deleted Files**  
 - Go to **File Views** (left panel).  
@@ -59,12 +59,12 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 
 ## Output :
 ### Folder before deleting the files
-<img width="1911" height="1017" alt="Screenshot 2025-09-13 141930" src="https://github.com/user-attachments/assets/f205c716-5e08-46f3-8c87-714708f05bc1" />
 
-
+<img width="1912" height="1017" alt="Screenshot 2025-09-13 190542" src="https://github.com/user-attachments/assets/7e44f0f3-25fe-4cef-aa85-054c536200b3" />
 
 ### Folder after deleting the files
-<img width="1905" height="1016" alt="Screenshot 2025-09-13 135310" src="https://github.com/user-attachments/assets/bc661c66-62f0-4340-a3cf-b58af40e3c36" />
+
+<img width="1908" height="1019" alt="Screenshot 2025-09-13 190759" src="https://github.com/user-attachments/assets/05e28e37-7e39-4988-94f3-d5ce89f276e0" />
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
